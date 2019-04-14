@@ -1,16 +1,31 @@
+@media (max-width: 540px){
+.share{
+    display: none;
+    
+}
+.search{
+    display: none;
+}
+}
+
+
+
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
 * { 
     font-family: 'My Lucida', Console;
+    font-size: 1em;
+    
 }
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+
 }
 
 a {
@@ -54,7 +69,7 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.9em;
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -137,7 +152,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
+    font-size: 1.1em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
